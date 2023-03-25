@@ -1,0 +1,35 @@
+/*
+
+[required] {
+    background-color: #ff0000;
+}
+
+é possível combinar!!!
+
+input [required] {
+    background-color: #00ff00;
+}
+
+Assim ele vai procurar input que contenha required.
+
+input [type=text] {
+    background-color: #0000ff;
+}
+
+Para selecionar apenas os inputs com type=text
+
+tenho a possibilidade de selecionar qualquer ítem apenas por seus atributos.
+
+input [name="usuário"] {
+    background-color: #009900;
+}
+
+É possível selecionar um ítem pelo atributo e pelo valor dentro do atributo. 
+
+*/
+
+a {
+    background-color: aquamarine;
+}
+
+
