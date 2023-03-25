@@ -32,4 +32,28 @@ a {
     background-color: aquamarine;
 }
 
+/* 
+Para o caso de selecionar pelo conteúdo do atributo, suponhamos que eu precise de uma parte de um conteúdo.
+*/
+a[href*="saude"] {
+    background-color: #ff0000;
+}
+a[href*="noticia"] {
+    background-color: aqua;
+}
+/*
+com o *= e parte do conteúdo, o seletor vai procurar dentro do atributo a palavra buscada, se encontrar, ele ativa o estilo.
+*/
 
+/*
+Temos como selecionar ítens que começam com determinado valor.  
+
+a[href*="https"]
+
+Só vão selecionar os itens com https no início.
+
+Para selecionar pelo final do item.
+
+a[href$="html"]
+
+*/
