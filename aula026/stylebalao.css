@@ -5,11 +5,12 @@
     padding: 20px;
     border-radius: 20px;
 }
-.balao::after {
-    content: '';
-    display: block;
-    position: absolute;
-    margin-top: 20px;
-    border: 20px solid;
-    border-color: #0000ff transparent transparent transparent;
+.balao::after{
+    content:'';
+    display:inline-block;
+    position:absolute;
+    margin-left:45px;
+    top: 25px;
+    border:20px solid;
+    border-color:transparent transparent transparent #0000ff;
 }
