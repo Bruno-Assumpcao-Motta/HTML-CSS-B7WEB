@@ -2,19 +2,26 @@ body {
     text-align: center;
 }
 
-span::before { /*elemento que vem antes do span */
-    content: "";
-    display: inline-block;
-    width: 30px;
-    height: 10px;
-    background-color: rgba(127, 127, 228, 0.305);
+div {
+    background-color: rgb(161, 161, 230);
+    color: white;
+    padding: 20px;
     
 }
-span::after { /*elemento que vem antes do span */
+
+div::before { /*elemento que vem antes do span */
     content: "";
     display: inline-block;
     width: 30px;
     height: 10px;
-    background-color: rgba(127, 127, 228, 0.305);
+    background-color: rgba(249, 17, 17, 0.82);
+    
+}
+div::after { /*elemento que vem antes do span */
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    background-color: rgba(249, 17, 17, 0.82);
     
 }
