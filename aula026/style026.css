@@ -3,5 +3,12 @@ body {
 }
 
 span::before { /*elemento que vem antes do span */
-    content: "=>";
+    content: "=> ";
+    background-color: rgba(127, 127, 228, 0.305);
+    border: 1px solid rgba(0, 0, 0, 0.47);
+}
+span::after { /*elemento que vem antes do span */
+    content: " <=";
+    background-color: rgba(127, 127, 228, 0.305);
+    border: 1px solid rgba(0, 0, 0, 0.47);
 }
