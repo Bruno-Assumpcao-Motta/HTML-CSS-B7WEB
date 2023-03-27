@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+span::before { /*elemento que vem antes do span */
+    content: "=>";
+}
